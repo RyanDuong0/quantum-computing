@@ -20,8 +20,8 @@ states = ["|00>", "|01>", "|10>", "|11>"]
 for state, probability in zip(states, probabilities):
     print(f"{state}: {probability}")
 
-print(qml.draw(my_qnode)(np.pi/2))
+print(qml.draw(my_qnode)(np.pi))
 qml.drawer.use_style("black_white")
-fig, ax = qml.draw_mpl(my_qnode)(np.pi/2)
+fig, ax = qml.draw_mpl(my_qnode)(np.pi)
 plt.show()
 # CNOT: control is the solid black dot, target is the "crosshair"
