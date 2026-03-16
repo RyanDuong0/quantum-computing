@@ -1,7 +1,8 @@
 import pennylane as qml
 import numpy as np
 
-dev = qml.device("default.qubit", wires=1)
+dev = qml.device("default.qubit", wires=1) #wires = 1 means 1 qubit
+#qubits are 0-based indexing so qubit1 is on index = 0 = wire
 
 
 @qml.qnode(dev)
