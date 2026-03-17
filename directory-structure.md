@@ -1,8 +1,8 @@
 # Project Directory Structure
 
-*Generated: 2026-03-16 17:11:55*
+*Generated: 2026-03-17 16:55:19*
 
-Summary: 7 directories, 18 files, 16 Python files
+Summary: 9 directories, 19 files, 17 Python files
 
 ```
 quantum/
@@ -24,8 +24,11 @@ quantum/
 │   │       ├── parametrized_unitaries.py
 │   │       └── unitaries_in_pennylane.py
 │   └── single_qubit_gates
-│       ├── a_qnode_with_x_and_h.py
-│       ├── combining_x_and_h.py
-│       ├── flipping_bits.py
-│       └── uniform_superposition.py
+│       ├── its_just_a_phase
+│       │   └── the_pauli_z_gate.py
+│       └── x_and_h
+│           ├── a_qnode_with_x_and_h.py
+│           ├── combining_x_and_h.py
+│           ├── flipping_bits.py
+│           └── uniform_superposition.py
 ```
