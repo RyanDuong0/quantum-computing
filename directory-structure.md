@@ -1,8 +1,8 @@
 # Project Directory Structure
 
-*Generated: 2026-03-20 10:43:17*
+*Generated: 2026-03-20 12:20:12*
 
-Summary: 10 directories, 25 files, 22 Python files
+Summary: 12 directories, 30 files, 28 Python files
 
 ```
 quantum/
@@ -32,9 +32,17 @@ quantum/
 │       │   ├── the_pauli_z_gate.py
 │       │   ├── the_s_and_t_gates.py
 │       │   └── the_z_rotation.py
-│       ├── x_and_h
-│       │   ├── a_qnode_with_x_and_h.py
-│       │   ├── combining_x_and_h.py
-│       │   ├── flipping_bits.py
-│       │   └── uniform_superposition.py
+│       ├── prepare_yourself
+│       │   ├── mottonen_method.py
+│       │   ├── state_preparation.py
+│       │   └── state_preparation_revisited.py
+│       ├── universal_gate_sets
+│       │   ├── synthesizing_a_circuit.py
+│       │   ├── universality_of_h_and_t.py
+│       │   └── universality_of_rotations.py
+│       └── x_and_h
+│           ├── a_qnode_with_x_and_h.py
+│           ├── combining_x_and_h.py
+│           ├── flipping_bits.py
+│           └── uniform_superposition.py
 ```
